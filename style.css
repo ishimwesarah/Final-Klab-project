@@ -74,6 +74,7 @@ section {
   right: 0px;
 
   margin-top: -1cm;
+  margin-right: -4cm;
 }
 
 .hero-image img{
@@ -113,14 +114,16 @@ section {
 
 
 .about {
-   display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   position: relative;
 }
 .about-image{
-    margin: 0px 40px;
-    width: 300px;
-    height: 300px;
+    margin: -100px 40px;
+    margin-right: 200px;
+    width: 500px;
+    height: 500px;
    overflow: hidden;
 
 }
@@ -141,11 +144,14 @@ section {
 .about-content{
     width: 40%;
     text-align: left;
+    margin-top: 0%;
+    
 }
 
 .about-content p{
     font-size: 14px;
     margin-bottom: 10px;
+    margin-top: 0%;
 }
 
 .buttons button{
